@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>blog 首页</title>
+</head>
+<body>
+<div th:include="../static/conf::taglibs"></div>
+<div th:include="../static/conf::head"></div>
+<!-- main -->
+<div>
+<div id="testAA">aaaaaaaa</div>
+</div>
+
+<div th:include="../static/conf::foot"></div>
+<script>
+    console.log(basePath)
+    console.log($("#testAA").text())
+</script>
+</body>
+</html>

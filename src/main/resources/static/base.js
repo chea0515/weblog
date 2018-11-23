@@ -1,0 +1,1 @@
+const basePath = "http://localhost:9005/blog";

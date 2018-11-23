@@ -1,0 +1,10 @@
+server:
+  port: 9005
+  contextPath: /blog
+
+spring:
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+  devtools:
+    restart.enabled: true
